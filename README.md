@@ -1,5 +1,5 @@
 # AWS_to_English
-Drawing parallels to make AWS instance names more accessible [Reference](https://www.expeditedssl.com/aws-in-plain-english)
+Drawing parallels to make AWS instance names more accessible [[Reference](https://www.expeditedssl.com/aws-in-plain-english)]
 _______________
 
 
