@@ -1,10 +1,10 @@
 # AWS_to_English
-Drawing parallels to make AWS instance names more accessible [[Reference](https://www.expeditedssl.com/aws-in-plain-english)]
-_______________
+Drawing parallels to make AWS instance names more accessible [[AWS Docs](http://aws.amazon.com/documentation/)]  [[Reference](https://www.expeditedssl.com/aws-in-plain-english)]
+===============
 
 
 ## App Service
-===============
+_______________
 ###### EC2
 | Really Means        | Purpose           | Reference  |
 |:------------: |:-------------:| :-----:|
@@ -33,7 +33,7 @@ _______________
 ===============
 
 ## Web Developer Services
-===============
+_______________
 ###### API Gateway
 | Really Means        | Purpose           | Reference  |
 |:------------: |:-------------:| :-----:|
@@ -89,7 +89,7 @@ _______________
 ===============
 
 ## Mobile App Development
-===============
+_______________
 ###### Cognito
 | Really Means        | Purpose           | Reference  |
 |:------------: |:-------------:| :-----:|
