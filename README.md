@@ -30,6 +30,7 @@ _______________
 |:------------: |:-------------:| :-----:|
 | AWS App Scripts     | Run little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.    |   |
 ===============
+===============
 
 ## Web Developer Services
 ===============
@@ -84,4 +85,29 @@ _______________
 | Really Means        | Purpose           | Reference  |
 |:------------: |:-------------:| :-----:|
 |  AWS Firewall 	| Block bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin) 	| Sophos, Kapersky |
+===============
+===============
 
+## Mobile App Development
+===============
+###### Cognito
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon OAuth as a Service 	| Give end users - (non AWS) - the ability to log in with Google, Facebook, etc. 	| OAuth.io |
+===============
+###### Device Farm
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Drawer of Old Android Devices 	| Test your app on a bunch of different IOS and Android devices simultaneously. |
+MobileTest, iOS emulator |
+===============
+###### Mobile Analytics
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  N/A 	| Track what people are doing inside of your app. | Flurry |
+===============
+###### SNS
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Messenger 	| Send mobile notifications, emails and/or SMS messages | UrbanAirship, Twilio |
+===============
