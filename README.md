@@ -3,7 +3,7 @@ Drawing parallels to make AWS instance names more accessible [[Reference](https:
 _______________
 
 
-### App Service
+## App Service
 ===============
 ###### EC2
 | Really Means        | Purpose           | Reference  |
@@ -29,3 +29,59 @@ _______________
 | Really Means        | Purpose           | Reference  |
 |:------------: |:-------------:| :-----:|
 | AWS App Scripts     | Run little self contained snippets of JS, Java or Python to do discrete tasks. Sort of a combination of a queue and execution in one. Used for storing and then executing changes to your AWS setup or responding to events in S3 or DynamoDB.    |   |
+===============
+
+## Web Developer Services
+===============
+###### API Gateway
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  API Proxy      | Proxy your apps API through this so you can throttle bad client traffic, test new versions, and present methods more cleanly.  | 3Scale |
+===============
+###### RDS
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon SQL 	| Be your app's Mysql, Postgres, and Oracle database. 	| Heroku Postgres |
+===============
+###### Route53
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon DNS + Domains 	| Buy a new domain and set up the DNS records for that domain. |DNSimple, GoDaddy, Gandi |
+===============
+###### SES
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Transactional Email 	| Send one-off emails like password resets, notifications, etc. You could use it to send a newsletter if you wrote all the code, but that's not a great idea. 	| SendGrid, Mandrill, Postmark |
+===============
+###### Cloudfront
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon CDN 	| Make your websites load faster by spreading out static file delivery to be closer to where your users are. | MaxCDN, Akamai |
+===============
+###### CloudSearch
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Fulltext Search 	| Pull in data on S3 or in RDS and then search it for every instance of 'Jimmy.' 	| Sphinx, Solr, ElasticSearch |
+===============
+###### DynamoDB
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon NoSQL 	| Be your app's massively scalable key valueish store. 	| MongoLab |
+===============
+###### Elasticache
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Memcached 	| Be your app's Memcached or Redis. 	| Redis to Go, Memcachier |
+###### Elastic Transcoder
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Beginning Cut Pro | Deal with video weirdness (change formats, compress, etc.). |  |
+###### SQS
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  Amazon Queue 	| Store data for future processing in a queue. The lingo for this is storing "messages" but it doesn't have anything to do with email or SMS. SQS doesn't have any logic, it's just a place to put things and take things out. 	| RabbitMQ, Sidekiq |
+###### WAF
+| Really Means        | Purpose           | Reference  |
+|:------------: |:-------------:| :-----:|
+|  AWS Firewall 	| Block bad requests to Cloudfront protected sites (aka stop people trying 10,000 passwords against /wp-admin) 	| Sophos, Kapersky |
+
