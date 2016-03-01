@@ -111,3 +111,7 @@ MobileTest, iOS emulator |
 |:------------: |:-------------:| :-----:|
 |  Amazon Messenger 	| Send mobile notifications, emails and/or SMS messages | UrbanAirship, Twilio |
 ===============
+===============
+
+## Ops and Code Deployment Services
+_______________
